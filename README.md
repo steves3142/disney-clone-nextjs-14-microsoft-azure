@@ -1,6 +1,6 @@
 # Disney+ 2.0 
 
-![Poster](https://imgur.com/a/JZ7ACVF)
+![Poster](https://imgur.com/a/JZ7ACVF.png)
 
 ## Project Description
 
@@ -9,8 +9,8 @@
 *For Acadmeic Purposes Only*
 
 #
-![Poster2](https://imgur.com/a/EsjA4Fd)
-![Client](https://imgur.com/a/O2pGeeH)
+![Poster2](https://imgur.com/C1LoPpb.png)
+![Client](https://imgur.com/a/O2pGeeH.png)
 #
 
 ## Technologies Used
