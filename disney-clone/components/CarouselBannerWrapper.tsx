@@ -1,4 +1,4 @@
-import CarouselBanner from "./carouselsBanner"
+import CarouselBanner from "./CarouselsBanner"
 import { getDiscoverMovies } from "@/lib/getMovies";
 
 type Props = {

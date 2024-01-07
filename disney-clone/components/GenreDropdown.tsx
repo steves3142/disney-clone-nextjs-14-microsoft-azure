@@ -10,22 +10,22 @@ import { Genres } from "@/typings";
 import { ChevronDown } from "lucide-react";
 import Link from "next/link";
 
-async function GenreDropDown() {
-    const url = "https://api.themoviedb.org/3/genre/movie/list?language=en";
+async function GenreDropdown() {
+  const url = "https://api.themoviedb.org/3/genre/movie/list?language=en";
+  const options: RequestInit = {
+    method: "GET",
+    headers: {
+      accept: "application/json",
+      Authorization: `Bearer ${process.env.TMDB_API_KEY}`,
+    },
+    next: {
+      revalidate: 60 * 60 * 24, // 24 hours
+    },
+  };
 
-    const options: RequestInit = {
-        method: "GET", 
-        headers: {
-            accept: "application/json",
-            Authorization: `Bearer ${process.env.TMDB_API_KEY}`
-        }, 
-        next: {
-          revalidate: 60 * 60 * 24, // 24 hours in seconds , caching in CDN, cache value rebuilds in 24 hours
-        }
-    }
+  const response = await fetch(url.toString(), options);
+  const data = (await response.json()) as Genres;
 
-    const response = await fetch(url, options)
-    const data = (await response.json()) as Genres
   return (
     <DropdownMenu>
       <DropdownMenuTrigger className="text-white flex justify-center items-center">
@@ -45,7 +45,7 @@ async function GenreDropDown() {
         ))}
       </DropdownMenuContent>
     </DropdownMenu>
-  )
+  );
 }
 
-export default GenreDropDown
+export default GenreDropdown;

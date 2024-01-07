@@ -36,7 +36,7 @@ function AISuggestion({ term }: { term: string }) {
           <p className="text-sm text-gray-400">
             AI (Azure Functions) Assistant Suggests:{" "}
           </p>
-          <p className="italic text-xl">"{data.message}"</p>
+          <p className="italic text-xl">{data.message}</p>
         </div>
       </>
     );
