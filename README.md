@@ -19,6 +19,7 @@
 - Shadcn
 - React
 - OpenAI API
+- TMDb API
 - Tailwind 
 - Microsoft Azure
 #
