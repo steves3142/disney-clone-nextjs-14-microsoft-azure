@@ -4,7 +4,7 @@
 
 ## Project Description
 
-### This a Disney+ clone created with NEXT.JS 14, Microsoft Azure, Caching, OpenAI, Shadcn, Tailwind, and TypeScript. Once the app is opened, you can search movies by title and genre using the TMDb API in addition to getting recommendations by OpenAI API via Microsoft Azure. Toggling between light and dark mode is made available using Shadcn.
+### This is a Disney+ clone created with NEXT.JS 14, Microsoft Azure, Caching, OpenAI, Shadcn, Tailwind, and TypeScript. Once the app is opened, you can search movies by title and genre using the TMDb API in addition to getting recommendations by OpenAI API via Microsoft Azure. Toggling between light and dark mode is made available using Shadcn.
 
 *For Academic Purposes Only*
 
